@@ -26,7 +26,7 @@ npm run build
 
 👤 **Yamac Ozdil**
 
-* Website: yamacozdil.com
+* Website: [yamacozdil.com](https://yamacozdil.com)
 * Github: [@yozdil](https://github.com/yozdil)
 * LinkedIn: [@yamac-ozdil](https://linkedin.com/in/yamac-ozdil)
 
