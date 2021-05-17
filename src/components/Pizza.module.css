@@ -1,5 +1,7 @@
 .container {
   border: 1px solid burlywood;
+  background-color: #f8d660;
+  background-image: url("https://www.transparenttextures.com/patterns/low-contrast-linen.png");
   margin: 0 0 10px;
   padding: 10px;
   list-style: none;
@@ -16,8 +18,8 @@
 .container button {
   margin-top: 1em;
   transition-duration: 0.4s;
-  background: #f8d660;
-  border-radius: 1em;
+  background: #ed6262;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
   border: none;
   padding: 0.5em;
   display: inline-flex;
@@ -27,7 +29,6 @@
 }
 
 .container button:hover {
-  background: #f7d045;
   transform: scale(1.05);
 }
 

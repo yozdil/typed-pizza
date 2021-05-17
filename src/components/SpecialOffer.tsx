@@ -18,14 +18,17 @@ const SpecialOffer: React.FC<Props> = ({ pizza }) => {
     });
   };
   return (
-    <div className={SpecialOfferCSS.container}>
-      <h2>{pizza.name}</h2>
-      <p>{pizza.description}</p>
-      <p>{pizza.price}</p>
-      <button type="button" onClick={handleAddToCartClick}>
-        Add to Cart
-      </button>
-    </div>
+    <>
+      <div className={SpecialOfferCSS.container}>
+        <h2>{pizza.name} - Special Offer</h2>
+        <p>{pizza.description}</p>
+        <p>{pizza.price}</p>
+        <button type="button" onClick={handleAddToCartClick}>
+          Add to Cart
+        </button>
+      </div>
+      <hr />
+    </>
   );
 };
 

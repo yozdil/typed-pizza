@@ -1,5 +1,7 @@
 .container {
-  border: 3px solid #f8d660;
+  border: 3px solid black;
+  background-color: #f8d660;
+  background-image: url("https://www.transparenttextures.com/patterns/low-contrast-linen.png");
   margin: 0 0 30px;
   padding: 10px;
 }
@@ -11,8 +13,8 @@
 .container button {
   margin-top: 1em;
   transition-duration: 0.4s;
-  background: #f8d660;
-  border-radius: 1em;
+  background: #ed6262;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
   border: none;
   padding: 0.5em;
   display: inline-flex;
@@ -22,7 +24,13 @@
 }
 
 .container button:hover {
-  background: #f7d045;
   transform: scale(1.05);
 }
 
+hr{
+  margin-bottom: 30px;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ed6262, #f8d760b9, #ed6262);
+}
