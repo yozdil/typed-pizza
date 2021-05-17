@@ -4,7 +4,8 @@
 }
 
 .cartDropDown {
-  background: white;
+  background: #f8d660;
+  border-radius: 1em;  
   box-shadow: 0 1px 7px rgba(0, 0, 0, 0.2);
   position: absolute;
   left: 50%;
@@ -17,7 +18,8 @@
 .cartDropDown ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0.3em;
+
 }
 
 .cartDropDown li {
@@ -30,14 +32,39 @@
 }
 
 .button {
-  background: none;
+  background: #f8d660;
+  border-radius: 1em;
   border: none;
-  padding: 0;
+  padding: 1em;
   display: inline-flex;
   align-items: center;
   cursor: pointer;
   font-size: 16px;
 }
+
+.button span {
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 10px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 
 .button svg {
   margin: 0 5px 0 0;

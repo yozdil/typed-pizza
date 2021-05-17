@@ -12,3 +12,21 @@
 .container p {
   margin-bottom: 0;
 }
+
+.container button {
+  transition-duration: 0.4s;
+  background: #f8d660;
+  border-radius: 1em;
+  border: none;
+  padding: 0.5em;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.container button:hover {
+  background: #f7d045;
+  transform: scale(1.05);
+}
+
