@@ -46,10 +46,8 @@ class Cart extends React.Component<Props, State> {
                 }}
               >
                 <ul>
-                  <li>Napoletana</li>
-                  <li>Marinara</li>
-                  {state.cart.items.map(item => {
-                    return <li key={item.id}>{item.name}</li>
+                  {state.cart.items.map((item) => {
+                    return <li key={item.id}>{item.name}</li>;
                   })}
                 </ul>
               </div>
