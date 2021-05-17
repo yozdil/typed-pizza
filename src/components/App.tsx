@@ -10,7 +10,7 @@ const App = () => {
     <div className={AppCSS.container}>
       <div className={AppCSS.header}>
         <PizzaSVG width={120} height={120} />
-        <div className={AppCSS.siteTitle}>Delicious Pizza</div>
+        <div className={AppCSS.siteTitle}>Typed Pizza</div>
         <Cart />
       </div>
       <ul>
