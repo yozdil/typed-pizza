@@ -14,6 +14,7 @@
 }
 
 .container button {
+  margin-top: 1em;
   transition-duration: 0.4s;
   background: #f8d660;
   border-radius: 1em;
