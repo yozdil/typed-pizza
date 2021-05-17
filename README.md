@@ -1,6 +1,9 @@
-<h1 align="center">Welcome to Typed Pizza 🍕</h1>
+<p align="center">
+  <img width="120" height="120" src="src/svg/pizza.svg">
+</p>
+<h1 align="center">Welcome to Typed Pizza</h1>
 
-> Pizza using typescript
+This app was built with Webpack, React, TypeScript, Css Modules and other supporting packages.
 
 ### ✨ [Demo](www.google.com)
 
