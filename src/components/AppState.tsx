@@ -29,7 +29,7 @@ interface Action<T> {
 }
 interface AddToCartAction extends Action<"ADD_TO_CART"> {
   payload: {
-    item: CartItem;
+    item: Omit<CartItem, "quantity">;
   };
 }
 
@@ -51,7 +51,7 @@ const reducer = (state: AppStateValue, action: AddToCartAction) => {
               }
               return item;
             })
-          : [...state.cart.items, itemToAdd],
+          : [...state.cart.items, { ...itemToAdd, quantity: 1 }],
       },
     };
   }
