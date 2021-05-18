@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import pizzas from "../data/pizzas.json";
 import Pizza from "./Pizza";
 import Cart from "./Cart";
@@ -8,7 +8,19 @@ import AppStateProvider from "./AppState";
 import SpecialOffer from "./SpecialOffer";
 
 const App = () => {
-  const specialOfferPizza = pizzas.find(pizza=>pizza.specialOffer)
+  const specialOfferPizza = pizzas.find((pizza) => pizza.specialOffer);
+
+  //  // FOR FUNCTIONAL COMPONENTS (componentDidMount & componentWillMount logic)
+  // useEffect(() => {
+  //   const listener = () => {
+  //     alert("Hello");
+  //   };
+  //   document.addEventListener("mousedown", listener);
+  //   return () => {
+  //     document.removeEventListener("mousedown", listener);
+  //   };
+  // }, []);
+
   return (
     <AppStateProvider>
       <div className={AppCSS.container}>
