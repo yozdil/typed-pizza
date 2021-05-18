@@ -3,9 +3,9 @@
 </p>
 <h1 align="center">Welcome to Typed Pizza</h1>
 
-This app was built with Webpack, React, TypeScript, Css Modules and other supporting packages.
+Add your favourite pizza to your cart. Refresh the page all is there! This app was built with Webpack, React, TypeScript, Css Modules and other supporting packages.
 
-### ✨ [Demo](www.google.com)
+### ✨ [Demo](https://condescending-knuth-40d72d.netlify.app/)
 
 ## Install
 
