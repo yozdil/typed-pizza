@@ -17,6 +17,7 @@ npm install
 
 ```sh
 npm run build
+npm start
 ```
 
 ## Author
